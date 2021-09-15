@@ -1,0 +1,53 @@
+generated: '2020-06-02T23:09:10.1591132150Z'
+apiVersion: v1
+ns_packages:
+  fb_magma_ns:
+    '1.0':
+      vendor: ATOS
+      name: fb_magma_ns
+      description: NS consisting of a KNF fb_magma_knf connected to mgmt network
+      path: /ns/fb_magma_ns/1.0/fb_magma_ns-1.0.tar.gz
+    latest: '1.0'
+  squid-cnf-ns:
+    '1.0':
+      vendor:
+      name: squid-cnf-ns
+      description: NS with 1 KDU connected to the mgmtnet VL
+      path: /ns/squid-cnf-ns/1.0/squid-cnf-ns-1.0.tar.gz
+    latest: '1.0'
+  hackfest_magma-agw-enb_nsd:
+    '1.0':
+      vendor: Whitestack
+      name: hackfest_magma-agw-enb_nsd
+      description: Magma AGW 1.0.0 with tools & srsLTE connected to PNF Gateway
+      path: /ns/hackfest_magma-agw-enb_nsd/1.0/hackfest_magma-agw-enb_nsd-1.0.tar.gz
+    latest: '1.0'
+vnf_packages:
+  squid-vnf:
+    '1.0':
+      vendor:
+      name: squid-vnf
+      description:
+      path: /vnf/squid-vnf/1.0/squid-vnf-1.0.tar.gz
+    latest: '1.0'
+  fb_magma_knf:
+    '1.0':
+      vendor: ATOS
+      name: fb_magma_knf
+      description: KNF with KDU using a helm-chart for Facebook magma orc8r
+      path: /vnf/fb_magma_knf/1.0/fb_magma_knf-1.0.tar.gz
+    latest: '1.0'
+  hackfest_magma-agw-enb_vnfd:
+    '1.0':
+      vendor: Whitestack
+      name: hackfest_magma-agw-enb_vnfd
+      description: Magma AGW v1.0.0 with tools & srsLTE VDU
+      path: /vnf/hackfest_magma-agw-enb_vnfd/1.0/hackfest_magma-agw-enb_vnfd-1.0.tar.gz
+    latest: '1.0'
+  hackfest_gateway_vnfd:
+    '1.0':
+      vendor:
+      name: hackfest_gateway_vnfd
+      description: Gateway PNF
+      path: /vnf/hackfest_gateway_vnfd/1.0/hackfest_gateway_vnfd-1.0.tar.gz
+    latest: '1.0'
